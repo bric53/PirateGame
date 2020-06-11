@@ -1,0 +1,124 @@
+.o
+{
+    background: lightblue;
+}
+.l
+{
+    background: black;
+}
+.w
+{
+    background: white;
+}
+.pt
+{
+    background-image: radial-gradient(gold 50%, lightblue 100%);
+}
+
+
+
+
+
+img
+{
+    height: 28px;
+    width: 30px;
+    transform: rotate(45deg);
+    border-radius: 50%;
+    filter:inherit;
+}
+
+.treasure
+{
+    border-width: 5px;
+    border-color: gold;
+}
+.valid{
+    filter: brightness(60%);
+}
+
+
+td:hover
+{
+    filter: brightness(85%);
+}
+
+body
+{
+    overflow: hidden; /* Hide scrollbars */
+}
+
+
+
+.score
+{
+    display: inline-block;
+    margin-left: 280px;
+    border: 10px black;
+    height: 20px;
+    width: 80px;
+}
+
+
+button
+{
+    border-radius: 12px;
+    background-color: white;
+    display: inline-block;
+}
+
+    button:hover
+    {
+        background-color: #AAAAAA;
+        color: white;
+        transition-duration: .4s;
+    }
+
+p
+{
+    color: black;
+}
+
+table, td
+{
+    border: 1px solid black;
+    width: 28px;
+    height: 30px;
+    background: lightblue;
+}
+
+table
+{
+    border: 10px #101055;
+    table-layout: fixed;
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-left: 100px;
+    transform: rotate(-45deg);
+}
+
+td
+{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font: baloo;
+}
+
+tr
+{
+}
+
+/*.boring
+{
+    background-color: white;
+    height: 10px;
+    border: 1px solid black;
+    color: black;
+    font-size: 14px;
+}*/
+
+.dark {
+    background: black;
+}
